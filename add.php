@@ -61,6 +61,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 <body>
   <h1>Student Application</h1>
+  <p><a href="index.php">Back to Dashboard</a></p>
 
   <?php if (!empty($errors)): ?>
     <ul style="color: red;">
